@@ -26,20 +26,6 @@ C:\HomeShare10032015\HomeShareDAL\HomeShareDAL\bin\Debug\Newtonsoft.Json.xml
 C:\HomeShare10032015\HomeShareDAL\HomeShareDAL\bin\Debug\System.Web.Optimization.xml
 C:\HomeShare10032015\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.pdb
 C:\HomeShare10032015\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.csprojResolveAssemblyReference.cache
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\HomeShareDAL.dll.config
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\HomeShareDAL.dll
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\HomeShareDAL.pdb
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\Antlr3.Runtime.dll
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\Microsoft.Web.Infrastructure.dll
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\Newtonsoft.Json.dll
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\System.Web.Optimization.dll
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\WebGrease.dll
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\Antlr3.Runtime.pdb
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\Newtonsoft.Json.xml
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\System.Web.Optimization.xml
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.csprojResolveAssemblyReference.cache
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.dll
-C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.pdb
 C:\HomeShareMVC11032015 - Copy\HomeShareDAL\HomeShareDAL\bin\Debug\HomeShareDAL.dll.config
 C:\HomeShareMVC11032015 - Copy\HomeShareDAL\HomeShareDAL\bin\Debug\HomeShareDAL.dll
 C:\HomeShareMVC11032015 - Copy\HomeShareDAL\HomeShareDAL\bin\Debug\HomeShareDAL.pdb
@@ -54,3 +40,17 @@ C:\HomeShareMVC11032015 - Copy\HomeShareDAL\HomeShareDAL\bin\Debug\System.Web.Op
 C:\HomeShareMVC11032015 - Copy\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.csprojResolveAssemblyReference.cache
 C:\HomeShareMVC11032015 - Copy\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.dll
 C:\HomeShareMVC11032015 - Copy\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.pdb
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\HomeShareDAL.dll.config
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\HomeShareDAL.dll
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\HomeShareDAL.pdb
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\Antlr3.Runtime.dll
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\Newtonsoft.Json.dll
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\System.Web.Optimization.dll
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\WebGrease.dll
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\Antlr3.Runtime.pdb
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\Newtonsoft.Json.xml
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\bin\Debug\System.Web.Optimization.xml
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.csprojResolveAssemblyReference.cache
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.dll
+C:\HomeShareMVC11032015\HomeShareDAL\HomeShareDAL\obj\Debug\HomeShareDAL.pdb

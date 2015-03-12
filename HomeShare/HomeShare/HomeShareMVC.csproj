@@ -133,6 +133,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helper\CustHelper.cs" />
     <Compile Include="Helper\SessionMembre.cs" />
     <Compile Include="Helper\Utils.cs" />
     <Compile Include="Models\DetailsModel.cs" />

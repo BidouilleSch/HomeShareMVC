@@ -21,7 +21,8 @@ namespace HomeExchange.Areas.Boutique.Controllers
 
         /*
          * 
-        [HttpGet] // Je voulais faire un panier afin de pouvoir ajouter les frais de dossier et les frais d'assurance*/
+        [HttpGet] // Je voulais faire un panier afin de pouvoir ajouter les frais de dossier et les frais d'assurance grâce à ton commentaire 
+         * je n'ai pas perdu plus de temps*/
         
         public ActionResult AnnulerTransaction(int id)
         {

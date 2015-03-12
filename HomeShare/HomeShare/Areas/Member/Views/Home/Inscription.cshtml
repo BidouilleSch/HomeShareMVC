@@ -15,10 +15,20 @@
             <div class="col-lg-6 col-lg-offset-3 col-sm-6 col-sm-offset-3 col-xs-12 ">
 
                 <form class="" role="form" action="~/Member/Home/Inscription" method="post">
-                    <input type="text" class="form-control" placeholder="Nom" name="txtNom">                    
+                    <input type="text" class="form-control" placeholder="Nom" name="txtNom">
                     <input type="text" class="form-control" placeholder="Prenom" name="txtPrenom">
                     <input type="text" class="form-control" placeholder="Email" name="txtEmail">
-                    <input type="text" class="form-control" placeholder="Pays" name="numPays">
+                    <select name="IdPays">
+
+                        @{
+                            List<HomeShareDAL.Pays> lstPays = HomeShareDAL.Pays.ChargerTousLesPays();
+                            foreach (HomeShareDAL.Pays item in lstPays)
+                            {
+                                <option value="@item.IdPays">@item.Libelle</option>
+                            }
+                        }
+                    </select>
+
                     <input type="text" class="form-control" placeholder="Telephone" name="txtTel">
                     <input type="text" class="form-control" placeholder="Login" name="txtLogin">
                     <input type="password" class="form-control" placeholder="Password" name="form_phone">
@@ -28,9 +38,8 @@
 
 
 
-</div>
+            </div>
 
         </div>
     </div>
 </div>
-

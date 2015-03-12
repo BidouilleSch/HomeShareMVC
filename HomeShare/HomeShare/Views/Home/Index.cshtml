@@ -47,62 +47,12 @@
 </div>
 
 
-<!-- même bloc de recherche que dans le template de mike, faudra l'adapter a la recherche de bien  -->
-<div class="banner-search">
-    <div class="container">
-        <!-- banner -->
-        <h3>Buy, Sale &amp; Rent</h3>
-        <div class="searchbar">
-            <div class="row">
-                <div class="col-lg-6 col-sm-6">
-                    <input type="text" class="form-control" placeholder="Search of Properties">
-                    <div class="row">
-                        <div class="col-lg-3 col-sm-3 ">
-                            <select class="form-control">
-                                <option>Buy</option>
-                                <option>Rent</option>
-                                <option>Sale</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-3 col-sm-4">
-                            <select class="form-control">
-                                <option>Price</option>
-                                <option>$150,000 - $200,000</option>
-                                <option>$200,000 - $250,000</option>
-                                <option>$250,000 - $300,000</option>
-                                <option>$300,000 - above</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-3 col-sm-4">
-                            <select class="form-control">
-                                <option>Property</option>
-                                <option>Apartment</option>
-                                <option>Building</option>
-                                <option>Office Space</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-3 col-sm-4">
-                            <button class="btn btn-success" onclick="window.location.href='buysalerent.php'">Find Now</button>
-                        </div>
-                    </div>
-
-
-                </div>
-                <div class="col-lg-5 col-lg-offset-1 col-sm-6 ">
-                    <p>Join now and get updated with all the properties deals.</p>
-                    <button class="btn btn-info" data-toggle="modal" data-target="#loginpop">Login</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <br /> <br />
 
 <div class="container">
     <div class="derniersBiens">
-        <!-- div créé avec cette classe au cas où on voudrait faire d' éventuels règles de style pour ce bloc, plus tard -->
-        <h2>Derniers Biens en &Eacute;change</h2>
+        <h2>Derniers Biens en echange</h2>
         <div class="row text-center">
 
 
@@ -147,15 +97,13 @@
 <div class="container">
     <div class="spacer">
         <div class="row">
-            <!-- meme bloc 'about' de gauche que sur l'index du template de mike  -->
+            
 
-            <div class="col-lg-6 col-sm-9 recent-view">
+            <div class="col-lg-4 col-sm-9 recent-view">
 
                 <h3>About Us</h3>
                 <p>
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
-                    Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form,
-                    accompanied by English versions from the 1914 translation by H. Rackham.<br><a href="about">Learn More</a>
+                    Wad 14 - Une chouette bande de développeuses
                 </p>
 
             </div>
@@ -164,9 +112,9 @@
 
 
             <div class="meilleursEchanges">
-                <!-- div créé avec cette classe au cas où on voudrait faire d' éventuels règles de style pour ce bloc, plus tard -->
+                
 
-                <div class="col-lg-5 col-sm-3 recommended">
+                <div class="col-lg-8 col-sm-3 recommended">
                     <h3>Meilleurs &Eacute;changes</h3>
 
                     @foreach (var item in Model)
