@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+<p><b>Titre:</b> @Model.BienCourant.Titre</p>
+<img src="~/Content/images/Biens/@Model.BienCourant.Photo" alt="" />
+<p><b>Accroche:</b> @Model.BienCourant.DescCourte</p>
+<p><b>Description:</b> @Model.BienCourant.DescLong</p>
+<p><b>Ville:</b> @Model.BienCourant.Ville</p>
+<p><b>Pays:</b> @Model.PaysBien.Libelle</p>
+<p><b>Capacité:</b> @Model.BienCourant.NombrePerson  personnes</p>
+<p><b>Disponible à l'échange depuis:</b> @Model.BienCourant.DateCreation.ToShortDateString()</p>

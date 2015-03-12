@@ -1,0 +1,107 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewBag.Title - HomeShare</title>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+
+</head>
+
+<body>
+
+
+    <!-- Header Starts -->
+    <div class="navbar-wrapper">
+
+        <div class="navbar-inverse" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+
+                <!-- Nav Starts -->
+                <div class="navbar-collapse  collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="~/Home/Index">Home</a></li>
+                        <li><a href="about.php">A propos de nous</a></li>
+                        <li><a href="agents.php">Les proprietaires</a></li>
+                        <li><a href="blog.php">Les biens en echange</a></li>
+                        <li><a href="contact.php">Contactez-nous</a></li>
+                    </ul>
+                </div>
+                <!-- #Nav Ends -->
+
+            </div>
+        </div>
+
+    </div>
+    <!-- #Header Starts -->
+  
+
+    <div class="container">
+
+        <!-- Header Starts -->
+        <div class="header">
+            <a href="#"><img src="~/Content/img/logo.png" alt="Realestate"></a>
+
+            <ul class="pull-right">
+                <li><a href="#">Echanger</a></li>
+                <li><a href="#">Visiter</a></li>
+                <li><a href="~/Member/Home/Index">Se connecter</a></li>
+            </ul>
+        </div>
+        <!-- #Header Starts -->
+
+
+
+    </div>
+
+    <div class="wide-container">       <!-- changement du nom de la classe pour adopter un style 100% de large-->
+        @RenderBody()
+        <hr />
+    </div>
+   
+    <!-- anciennement <footer> -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-3">
+                        <h4>Information</h4>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-3">
+                        <h4>Newsletter</h4>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-3">
+                        <h4>Suivez Nous</h4>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-3">
+                        <h4>Contactez-nous</h4>
+                    </div>
+                </div>
+                <p class="copyright">Copyright 2013. All rights reserved.	</p>
+            </div>
+        </div>
+    </div>
+
+@RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<HomeShareDAL.Membre>
+@{
+    ViewBag.Title = "Inscription";
+}
+
+<div class="inside-banner">
+    <div class="container">
+        <span class="pull-right"><a href="#">Home</a> / Inscription</span>
+        <h2>Inscription</h2>
+    </div>
+</div>
+<div class="container">
+    <div class="spacer">
+        <div class="row register">
+            <div class="col-lg-6 col-lg-offset-3 col-sm-6 col-sm-offset-3 col-xs-12 ">
+
+                <form class="" role="form" action="~/Member/Home/Inscription" method="post">
+                    <input type="text" class="form-control" placeholder="Nom" name="txtNom">                    
+                    <input type="text" class="form-control" placeholder="Prenom" name="txtPrenom">
+                    <input type="text" class="form-control" placeholder="Email" name="txtEmail">
+                    <input type="text" class="form-control" placeholder="Pays" name="numPays">
+                    <input type="text" class="form-control" placeholder="Telephone" name="txtTel">
+                    <input type="text" class="form-control" placeholder="Login" name="txtLogin">
+                    <input type="password" class="form-control" placeholder="Password" name="form_phone">
+                    <input type="password" class="form-control" placeholder="Confirm Password" name="form_phone">
+                    <button type="submit" class="btn btn-success" name="Submit">Inscription</button>
+                </form>
+
+
+
+</div>
+
+        </div>
+    </div>
+</div>
+

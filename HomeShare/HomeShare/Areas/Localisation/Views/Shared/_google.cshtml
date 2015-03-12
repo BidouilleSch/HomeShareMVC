@@ -1,0 +1,46 @@
+﻿<!-- Inclusion de l'API Google Maps -->
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<div id="infolocalistion"></div>
+<br />
+
+<script>
+    function go() {
+        if (navigator.geolocation)
+            navigator.geolocation.getCurrentPosition(maLocalisation);
+    }
+
+    function maLocalisation(localisation) {
+        var infopos = "Position déterminée :\n";
+        infopos += "Latitude : " + localisation.coords.latitude + "\n";
+        infopos += "Longitude: " + localisation.coords.longitude + "\n";
+        infopos += "Altitude : " + localisation.coords.altitude + "\n";
+        document.getElementById("infolocalisation").innerHTML = infoloc;
+        DisplayLocalisation(localisation);
+    }
+
+    function DisplayLocalisation(localisation) {
+        // Instanciation
+        var point = new google.maps.LatLng(localisation.coords.latitude, localisation.coords.longitude),
+
+        // Ajustement des paramètres
+        myOptions = {
+            zoom: 15,
+            center: point,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        },
+
+        // Envoi de la carte dans la div
+        mapDiv = document.getElementById("mapDiv"),
+        map = new google.maps.Map(mapDiv, myOptions),
+
+        marker = new google.maps.Marker({
+            position: point,
+            map: map,
+            // Texte du point
+            title: "Le Bien est ici"
+        });
+
+    }
+
+    go();
+</script>

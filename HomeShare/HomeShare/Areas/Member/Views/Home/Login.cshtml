@@ -1,0 +1,37 @@
+﻿@model IEnumerable<HomeShareDAL.Membre>
+@{
+    ViewBag.Title = "Login";
+}
+
+
+<div class="inside-banner">
+    <div class="container">
+        <span class="pull-right"><a href="#">Home</a> / Connexion</span>
+        <h2>Connexion</h2>
+    </div>
+</div>
+<div class="container">
+    <div class="spacer">
+        <div class="row register">
+            <div class="col-lg-6 col-lg-offset-3 col-sm-6 col-sm-offset-3 col-xs-12 ">
+
+                <form class="" role="form" action="~/Member/Home/Login" method="post">
+                  
+                    <input type="text" class="form-control" placeholder="Login" name="txtLog">
+                    <input type="password" class="form-control" placeholder="Password" name="txtPass">
+                    <input type="password" class="form-control" placeholder="Confirm Password" name="form_phone">
+                    <input type="hidden" name="backUrl" value="@ViewBag.backUrl">
+                    <button type="submit" class="btn btn-success" name="Submit">Connexion</button>
+                </form>
+
+                <div class="col-sm-6">
+                    <h4>Merci de vous inscrire</h4>
+                     <button type="submit" class="btn btn-info" onclick="window.location.href='/Member/Home/Inscription'">Inscription</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+

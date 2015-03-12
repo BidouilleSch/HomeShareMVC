@@ -1,0 +1,12 @@
+﻿<script>
+    function LocalisationBien(localisation) {
+        var infopos = "Position déterminée :\n";
+        infopos += "Latitude : " + localisation.coords.latitude + "\n";
+        infopos += "Longitude: " + localisation.coords.longitude + "\n";
+        infopos += "Altitude : " + localisation.coords.altitude + "\n";
+        document.getElementById("infolocalisation").innerHTML = infoloc;
+    }
+    if (navigator.geolocation)
+        navigator.geolocation.getCurrentPosition(maLocalisation);
+</script>
+<div id="infolocalisation"></div>
